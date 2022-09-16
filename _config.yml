@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://zahavinci.github.io/photorama/gallery/"  
-  - JOURNAL: "https://zahavinci.github.io/photorama/journal/"
-  - ABOUT: "https://zahavinci.github.io/photorama/about/"
+  - GALLERY: "https://zahavinci.github.io/zahavinci/gallery/"  
+  - JOURNAL: "https://zahavinci.github.io/zahavinci/journal/"
+  - ABOUT: "https://zahavinci.github.io/zahavinci/about/"
 
 # All translation keys
 translations:
