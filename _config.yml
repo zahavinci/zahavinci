@@ -35,7 +35,6 @@ comments :
 # Internal nav
 nav:
   - GALLERY: "https://zahavinci.github.io/zahavinci/gallery/"  
-  - JOURNAL: false
   - ABOUT: "https://zahavinci.github.io/zahavinci/about/"
 
 # All translation keys
