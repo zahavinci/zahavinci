@@ -42,11 +42,11 @@ images:
 
 			<!-- WYSIWYG -->
 
-		<div class="position-absolute">
-				<h2 background= rgba(0,0,0,0.7); style="color:Cyan;" class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
-				<h2 background= rgba(0,0,0,0.7); style="color:Cyan;">{{ page.subtitle }}</h2> 
+		<div style=" background-color: rgba(0,0,0,0.4);" class="position-absolute">
+				<h2  style="color:Cyan;" class="big no-margin"><strong>{{ page.main-title }}</strong></h2>
+				<h2  style="color:Cyan;">{{ page.subtitle }}</h2> 
                      <div class="entry-summary">
-							<p background= rgba(0,0,0,0.7); style="color:Cyan;">{{ page.description }}</p>
+							<p  style="color:Cyan;">{{ page.description }}</p>
 						</div><br />
 			</div>
 			
@@ -81,7 +81,7 @@ images:
                  {% if site.facebook_username %}
 			<li>
    <a href="https://facebook.com/{{ site.facebook_username }}" style="
-color:#5e5e5d; target="_blank" title="Facebook">
+color:#ffffff; target="_blank" title="Facebook">
                        <i class="fa fa-facebook"></i>
                      </span>
 </a></li>
@@ -89,7 +89,7 @@ color:#5e5e5d; target="_blank" title="Facebook">
  {% if site.twitter_username %}
 			<li>
    <a href="https://twitter.com/{{ site.twitter_username }}" style="
-color:#5e5e5d; target="_blank" title="Twitter">
+color:#ffffff; target="_blank" title="Twitter">
                        <i class="fa fa-twitter"></i>
                      </span>
 </a></li>
@@ -97,36 +97,36 @@ color:#5e5e5d; target="_blank" title="Twitter">
                 {% if site.instagram_username %}
 			<li>
    <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#5e5e5d; target="_blank" title="Instagram">
+color:#ffffff; target="_blank" title="Instagram">
                        <i class="fa fa-instagram"></i>
                      </span>
 </a></li>
     {% endif %}
-                    {% if site.flickr_username %}
+             <!--       {% if site.flickr_username %}
 						<li>
    <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
-color:#5e5e5d; target="_blank" title="Flickr">
+color:#ffffff; target="_blank" title="Flickr">
               <i class="fa fa-flickr"></i>
                      </span>
  </a></li>	
-     {% endif %}
+     {% endif %} -->
                     {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
-color:#5e5e5d; target="_blank" title="DeviantArt">
+color:#ffffff; target="_blank" title="DeviantArt">
 <i class="fa fa-deviantart"></i> </span>
 </a></li>	
     {% endif %}
-                    {% if site.github_username %}
+             <!--       {% if site.github_username %}
                 <li>
    <a href="https://github.com/{{ site.github_username }}" style="
-color:#5e5e5d; target="_blank" title="Github">
+color:#ffffff; target="_blank" title="Github">
               <i class="fa fa-github"></i>
                      </span>
-                   {% endif %}
+                   {% endif %} -->
 <li>
     <a href="mailto:{{ site.email }}" style="
-color:#5e5e5d; target="_blank" title="Email">
+color:#ffffff; target="_blank" title="Email">
               <i class="fa fa-envelope-o"></i></span>
           </a> </li>
 	
