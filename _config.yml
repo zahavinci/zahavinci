@@ -4,13 +4,14 @@ email: "kaverigadham08@gmail.com"
 description: "Portfolio"
 url: https://zahavinci.github.io
 baseurl: /zahavinci
-facebook_username: ""
-twitter_username: ""
-instagram_username: ""
-github_username:  ""
+facebook_username: "kaveri.gadham.5"
+twitter_username: "zahavinci"
+instagram_username: "kaverigaadham"
 deviantart_username: ""
-flickr_username: ""
-discus_shortname: ""
+github_username:  false
+flickr_username: false
+discus_shortname: false
+
 share: true
 
 # Owner/author information
